@@ -6,7 +6,7 @@ from pathlib import Path # Imports the Path class for object-oriented filesystem
 """
 Created by Carlos Cozzolino
 
-How to create an exec file in python:
+How to create an exec file in py:
 1. Install pip install pyinstaller
 2. Generate exec file with pyinstaller --onefile pyOrganizer.py, after testing the script.
 
