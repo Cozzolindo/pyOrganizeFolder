@@ -2,6 +2,15 @@ import os # Provides functions for interacting with the operating system, such a
 import shutil # Offers high-level file operations like copying and moving files or directories.
 from pathlib import Path # Imports the Path class for object-oriented filesystem paths, making it easier to work with files and directories.
 
+
+"""
+Created by Carlos Cozzolino
+
+How to create an exec file in python:
+1. Install pip install pyinstaller
+2. Generate exec file with pyinstaller --onefile pyOrganizer.py, after testing the script.
+
+"""
 def organize_files():
     """
     Organize files in the current directory by their file types.
